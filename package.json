@@ -1,0 +1,17 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".js",
+  "scripts": {
+    "start-latest": "nodemon $(ls -p | grep -v / | grep '^[0-9]\\+_' | sort -n | tail -1)"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
