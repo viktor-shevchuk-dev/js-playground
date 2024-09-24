@@ -4,7 +4,7 @@
   "description": "",
   "main": ".js",
   "scripts": {
-    "start-latest": "nodemon $(ls | grep '^[0-9]\\+_' | sort -n | tail -1)"
+    "start-latest": "nodemon $(ls -p | grep -v / | grep '^[0-9]\\+_' | sort -n | tail -1)"
   },
   "author": "",
   "license": "ISC",
